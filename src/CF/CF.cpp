@@ -9,3 +9,4 @@ template <typename T>
 CF<T>::~CF()
 {
 }
+

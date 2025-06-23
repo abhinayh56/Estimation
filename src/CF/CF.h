@@ -7,6 +7,15 @@ class CF
 public:
     CF();
     ~CF();
+    void init(T alpha);
+    void set_param(T alpha);
+    T update(T x1, T x2);
+    void reset();
+    void set_alpha(T alpha_);
+    T get_alpha();
+
+private:
+    T alpha = 0.0;
 };
 
 #include "CF.h"
