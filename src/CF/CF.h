@@ -31,6 +31,6 @@ private:
     T alpha = 0.0;
 };
 
-#include "CF.h"
+#include "CF.tpp"
 
 #endif // COMPLIMENTARY_FILTER
