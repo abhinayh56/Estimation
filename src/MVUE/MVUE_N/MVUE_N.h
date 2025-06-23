@@ -11,7 +11,7 @@ public:
     ~MVUE_N();
     void init(T *var_);
     void set_param(T *var_);
-    T update(T *x_i);
+    T update(const T &x_i);
     void reset();
 
 private:

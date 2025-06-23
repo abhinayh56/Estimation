@@ -23,7 +23,7 @@ void MVUE_N<T, N>::set_param(T *var_)
 }
 
 template <typename T, std::size_t N>
-T MVUE_N<T, N>::update(T *x_i)
+T MVUE_N<T, N>::update(const T &x_i)
 {
     T nominator = 0.0;
     T denominator = 0.0;
