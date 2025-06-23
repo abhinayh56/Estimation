@@ -16,7 +16,7 @@ public:
 
 private:
     T alpha = 0.0;
-    T y_i = 0.0
+    T y_i = 0.0;
 };
 
 #include "CF.h"

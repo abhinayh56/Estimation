@@ -3,5 +3,4 @@
 
 #include "CF/CF.h"
 
-
 #endif // ESTIMATION_H
