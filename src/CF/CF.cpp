@@ -23,9 +23,9 @@ void CF<T>::set_param(T alpha_)
 }
 
 template <typename T>
-T CF<T>::update(T x1, T x2)
+T CF<T>::update(T x1_i, T x2_i)
 {
-    return alpha * x1 + (1.0 - alpha) * x2;
+    return alpha * x1_i + (1.0 - alpha) * x2_i;
 }
 
 template <typename T>
