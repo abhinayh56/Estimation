@@ -26,7 +26,7 @@ void MVUE_2<T>::set_param(T var_1_, T var_2_)
 template <typename T>
 T MVUE_2<T>::update(T x1_i, T x2_i)
 {
-    return ((x1_i / var_2) + (x2_i / var_1)) / ((1.0 / var_1) + (1.0 / var_2));
+    return ((x1_i / var_1) + (x2_i / var_2)) / ((1.0 / var_1) + (1.0 / var_2));
 }
 
 template <typename T>

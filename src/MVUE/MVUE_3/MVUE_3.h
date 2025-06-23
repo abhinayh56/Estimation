@@ -7,8 +7,8 @@ class MVUE_3
 public:
     MVUE_3();
     ~MVUE_3();
-    void init(T var_1_, T var_2_);
-    void set_param(T var_1_, T var_2_);
+    void init(T var_1_, T var_2_, T var_3_);
+    void set_param(T var_1_, T var_2_, T var_3_);
     T update(T x1_i, T x2_i);
     void reset();
 
