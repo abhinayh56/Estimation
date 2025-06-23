@@ -15,7 +15,7 @@ public:
     void reset();
 
 private:
-    T var[N];
+    T *var;
 };
 
 #include "MVUE_N.tpp"
