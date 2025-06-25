@@ -13,7 +13,7 @@ MVUE_4<T>::~MVUE_4()
 template <typename T>
 void MVUE_4<T>::init(T var_1_, T var_2_, T var_3_, T var_4_)
 {
-    set_param(var_1_, var_2_, var_3_);
+    set_param(var_1_, var_2_, var_3_, var_4_);
 }
 
 template <typename T>
