@@ -1,5 +1,5 @@
-#ifndef BLUE_H_MVUE_3_H
-#define BLUE_H_MVUE_3_H
+#ifndef MVUE_3_H_BLUE_3_H
+#define MVUE_3_H_BLUE_3_H
 
 template <typename T>
 class MVUE_3
@@ -20,4 +20,4 @@ private:
 
 #include "MVUE_3.tpp"
 
-#endif // BLUE_H_MVUE_3_H
+#endif // MVUE_3_H_BLUE_3_H

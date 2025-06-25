@@ -1,5 +1,5 @@
-#ifndef BLUE_H_MVUE_4_H
-#define BLUE_H_MVUE_4_H
+#ifndef MVUE_4_H_BLUE_4_H
+#define MVUE_4_H_BLUE_4_H
 
 template <typename T>
 class MVUE_4
@@ -21,4 +21,4 @@ private:
 
 #include "MVUE_4.tpp"
 
-#endif // BLUE_H_MVUE_4_H
+#endif // MVUE_4_H_BLUE_4_H

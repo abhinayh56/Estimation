@@ -1,5 +1,5 @@
-#ifndef BLUE_H_MVUE_2_H
-#define BLUE_H_MVUE_2_H
+#ifndef MVUE_2_H_BLUE_2_H
+#define MVUE_2_H_BLUE_2_H
 
 template <typename T>
 class MVUE_2
@@ -19,4 +19,4 @@ private:
 
 #include "MVUE_2.tpp"
 
-#endif // BLUE_H_MVUE_2_H
+#endif // MVUE_2_H_BLUE_2_H

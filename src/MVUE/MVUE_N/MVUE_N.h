@@ -1,5 +1,5 @@
-#ifndef BLUE_H_MVUE_N_H
-#define BLUE_H_MVUE_N_H
+#ifndef MVUE_N_H_BLUE_4_H
+#define MVUE_N_H_BLUE_4_H
 
 #include <cstddef>
 
@@ -20,4 +20,4 @@ private:
 
 #include "MVUE_N.tpp"
 
-#endif // BLUE_H_MVUE_N_H
+#endif // MVUE_N_H_BLUE_4_H
