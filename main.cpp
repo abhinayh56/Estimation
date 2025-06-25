@@ -3,10 +3,13 @@
 
 int main()
 {
-    MVUE_4<double> mvue;
-    mvue.init(4, 5, 6, 7);
+    double var_arr[4] = {4, 5, 6, 7};
+    double x_arr[4] = {100, 200, 150, 300};
 
-    std::cout << mvue.update(100,200, 150, 300) << std::endl;
+    MVUE_N<double, 4> mvue;
+    mvue.set_param(var_arr);
+
+    std::cout << mvue.update(x_arr) << std::endl;
 
     return 0;
 }
